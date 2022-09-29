@@ -1861,22 +1861,22 @@ if (isBanChat) return reply(mess.banChat)
                     await XeonBotInc.sendButtonText(m.chat, buttons, jawab, XeonBotInc.user.name, m, {mentions: menst})
             }
             break
-            case 'is':
+            case 'is': case 'هل':
             if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 				if (!text) return replay(`Use Text, مثال : ${prefix + command} he married `)
-					const apa = [`نعم`, `لا`, `يمكن ان يكون`, `هذا صحيح`]
+					const apa = [`صحيح`,`اظن`,`نعم`, `لا`, `يمكن ان يكون`, `هذا صحيح`]
 					const kah = apa[Math.floor(Math.random() * apa.length)]
-XeonBotInc.sendMessage(from, { text: `السؤال : Is ${q}\nالاجابه : ${kah}` }, { quoted: m })
+XeonBotInc.sendMessage(from, { text: `السؤال : هل ${q}\nالاجابه : ${kah}` }, { quoted: m })
 
 					break
 					            case 'what': case 'ماذا': case 'ما':
 					if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 				if (!text) return replay(`Use Text, مثال : ${prefix + command} he married `)
-					const lel = [`Ask Your Gf`, `لا اعلم يا صاح`, `لا اعلم اذهب لسؤال ابيك`]
+					const lel = [`اسأل عمك رايزل`,`اسأل جدك يافتى`, `لا اعلم يا صاح`, `لا اعلم اذهب لسؤال ابيك`]
 					const kahk = lel[Math.floor(Math.random() * lel.length)]
-XeonBotInc.sendMessage(from, { text: `السؤال : What ${q}\nالاجابه : ${kahk}` }, { quoted: m })
+XeonBotInc.sendMessage(from, { text: `السؤال : ماذا ${q}\nالاجابه : ${kahk}` }, { quoted: m })
 
 					break
 case 'can':
@@ -1897,13 +1897,13 @@ if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { text: `Question : ${q}\nAnswer : How ${ya}` }, { quoted: m })
 
 					break
-case 'rate':
+case 'rate': case 'معدل':
 if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 				if (!text) return replay(`Use Text, مثال : ${prefix + command} My Dp`)
 					const ra = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const te = ra[Math.floor(Math.random() * ra.length)]
-XeonBotInc.sendMessage(from, { text: `Rate : ${q}\nAnswer : *${te}%*` }, { quoted: m })
+XeonBotInc.sendMessage(from, { text: `معدل : ${q}\nالإجابه : *${te}%*` }, { quoted: m })
 
 					break
   case 'handsomecheck':
@@ -1946,7 +1946,7 @@ if (isBanChat) return reply(mess.banChat)
 				if (!text) return replay(`Tag Someone, مثال : ${prefix + command} @Xeon`)
 					const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
-XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
+XeonBotInc.sendMessage(from, { text: `*${command}*\n\nالأسم: ${q}\nالإجابه : *${sange}%*` }, { quoted: m })
 					break
                     case 'احمق':
       case 'بشع':
@@ -2244,12 +2244,12 @@ if (isBanChat) return reply(mess.banChat)
 					const kapankah = kapan[Math.floor(Math.random() * kapan.length)]
 XeonBotInc.sendMessage(from, { text: `Question : ${q}\nAnswer : *${kapankah}*` }, { quoted: m })
 					break
-case 'wangy':
+case 'منور': case 'منوره': case 'منورين': case 'نورتو':
 if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
               if (!text) return replay(`Use Text, مثال : ${prefix + command} hinata`)
               qq = q.toUpperCase()
-              awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaah the smell of hair ${qq} smelly i want to smell the fragrance ${qq} AAAAAAAAH ~ Her hair.... aaah i want to stroke her hair too ~~ AAAAAH ${qq} first time out in anime is cute too ❤️ ❤️ ❤️ so AAAAAAAH ${qq} AAAAAA LUCCUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️what ? ${qq} it's not real ? Just HELL you say ? no, no no no no no no no no no no no no no no no !! I DON'T CARE ABOUT THE REALITY, I DON'T CARE. ❤️ ❤️ ❤️ ${qq} me ... ${qq} on the laptop watching me, ${qq} .. you believe in me ? aaaaaaaaaaah thanks ${q} I don't want to give up ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH I STILL HAVE ${qq} ALSO NOT THE SAME AAAAAAAAAAAAAAH`
+              awikwok = `بنوري طبعاً`
              reply(awikwok)
               break
 case 'checkdeath':
@@ -8757,7 +8757,7 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
-case 'sc': case 'script': case 'donate': case 'donate': case 'التسجيل': case 'updatebot': case 'cekbot': case 'sourcecode': {
+case 'sc': case 'script': case 'donate': case 'donate': case 'التسجيل': case 'رايزل': case 'cekbot': case 'جورج': {
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 teks = `*「 ${global.botname} Script 」*\n\nيوتيوب: ${global.websitex}\nجروب الدعم: ${global.botscript}\n\nلا تنسى التبرع 🍜`
