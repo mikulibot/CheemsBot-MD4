@@ -15,4 +15,4 @@
 
 ```نشر
 
-[![Deploy](https://dashboard.heroku.com/new?template=https://github.com/Raizelbot/CheemsBot-MD4)](https://dashboard.heroku.com/new?template=https://github.com/Raizelbot/CheemsBot-MD4)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Raizelbot/CheemsBot-MD4)
