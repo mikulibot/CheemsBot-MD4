@@ -1865,7 +1865,7 @@ if (isBanChat) return reply(mess.banChat)
             if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 				if (!text) return replay(`Use Text, مثال : ${prefix + command} he married `)
-					const apa = [`صحيح`,`اظن`,`نعم`, `لا`, `يمكن ان يكون`, `هذا صحيح`]
+					const apa = [`سلك له`,`سلك بس`,`يمكن`,`صحيح`,`اظن`,`نعم`, `لا`, `يمكن ان يكون`, `هذا صحيح`]
 					const kah = apa[Math.floor(Math.random() * apa.length)]
 XeonBotInc.sendMessage(from, { text: `السؤال : هل ${q}\nالاجابه : ${kah}` }, { quoted: m })
 
@@ -1874,7 +1874,7 @@ XeonBotInc.sendMessage(from, { text: `السؤال : هل ${q}\nالاجابه :
 					if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 				if (!text) return replay(`Use Text, مثال : ${prefix + command} he married `)
-					const lel = [`اسأل عمك رايزل`,`اسأل جدك يافتى`, `لا اعلم يا صاح`, `لا اعلم اذهب لسؤال ابيك`]
+					const lel = [`روح اسأل مامتك`,`مدري`,`اسأل عمك رايزل`,`اسأل جدك يافتى`, `لا اعلم يا صاح`, `لا اعلم اذهب لسؤال ابيك`]
 					const kahk = lel[Math.floor(Math.random() * lel.length)]
 XeonBotInc.sendMessage(from, { text: `السؤال : ماذا ${q}\nالاجابه : ${kahk}` }, { quoted: m })
 
@@ -1993,10 +1993,10 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nالأسم: ${q}\nالإج
       case 'خول':
       case 'وسخ':
       case 'مكروف':
-      case 'بيتناك':
-      case 'كس':
+      case 'هطف':
+      case 'اهبل':
       case 'معرص':
-      case 'شرموط':
+      case 'عبقري':
       case 'اهطل':
       case 'loda':
       case 'laund':
@@ -2270,7 +2270,7 @@ if (isBanChat) return reply(mess.banChat)
                 await XeonBotInc.groupAcceptInvite(result).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
             }
             break
-                               case 'leavegc': case 'غادر': {
+                               case 'leavegc': case 'غادر': case 'اطلعمنه': {
 if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 	reply(mess.wait)
@@ -2278,7 +2278,7 @@ if (isBan) return reply(mess.ban)
                 await XeonBotInc.groupLeave(m.chat).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
             }
             break
-            case 'تغيرالحقوق': {
+            case 'تغيرالحقوق': case 'الحقوق': {
             	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
                if (!isCreator) return replay(`${mess.owner}`)
@@ -2289,7 +2289,7 @@ if (isBanChat) return reply(mess.banChat)
             }
             break
 	case 'طرد': case 'اطرد': case 'اذلف': {
-		if (isBan) return reply(mess.ban)	 			
+		if (isBan) return reply(mess.ban)	 	;		
 if (isBanChat) return reply(mess.banChat)
 		if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
@@ -5989,10 +5989,10 @@ reply(mess.wait)
 emote(q, "10")
 break
 
-case 'emojimix': {
+case 'دمج': case 'emojimix': case 'ادمج': {
 	   if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-if (!q) reply(`*مثال :* ${prefix + command} 🦄+🤣`)
+if (!q) reply(`*مثال :* ${prefix + command} 😎+🤣`)
 let [emoji1, emoji2] = q.split`+`
 let kuntuh = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
 for (let res of kuntuh.results) {
@@ -10232,10 +10232,10 @@ case 'funmenu':
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Fun Menu')
 await XeonBotInc.send5ButImg(from, `╔═══════✪「 قائمه التسليه 」	
-╠ ${prefix}زواج
-╠ ${prefix}زوجني
-╠ ${prefix}احمق
-╠ ${prefix}بشع
+╠ زواج
+╠ زوجني
+╠ احمق
+╠ بشع
 ╠ ${prefix}جبان
 ╠ ${prefix}جميل
 ╠ ${prefix}حزين
@@ -10259,31 +10259,31 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 قائمه ا
 ╠ ${prefix}كلب
 ╠ ${prefix}مبااع
 ╠ ${prefix}مجنون
-╠ ${prefix}محبوب
-╠ ${prefix}محترم
-╠ ${prefix}محتال
-╠ ${prefix}مخادغ
-╠ ${prefix}مخدوع
-╠ ${prefix}مسكين
-╠ ${prefix}مستفز
-╠ ${prefix}مضحك
-╠ ${prefix}مظلوم
-╠ ${prefix}مكروه
-╠ ${prefix}مؤدب
-╠ ${prefix}نجس
-╠ ${prefix}وصخ
-╠ ${prefix}ورع
-╠ ${prefix}شاذ
-╠ ${prefix}علق
-╠ ${prefix}متناك
-╠ ${prefix}خول
-╠ ${prefix}وسخ
-╠ ${prefix}مكروف
-╠ ${prefix}بيتناك
-╠ ${prefix}كس
-╠ ${prefix}معرص
-╠ ${prefix}شرموط
-╠ ${prefix}اهطل
+╠ محبوب
+╠ محترم
+╠ محتال
+╠ مخادغ
+╠ مخدوع
+╠ مسكين
+╠ مستفز
+╠ مضحك
+╠ مظلوم
+╠ مكروه
+╠ مؤدب
+╠ نجس
+╠ وصخ
+╠ ورع
+╠ شاذ
+╠ علق
+╠ ذكي
+╠ عبقري
+╠ وسخ
+╠ هطف
+╠ بيتناك
+╠ خروف
+╠ معرص
+╠ شرموط
+╠ اهطل
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "يوتيوب 📍","url": `${websitex}`}},{"urlButton": {"displayText": "سكربت🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "تبرع 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "المطور 👤","id": 'owner'}}] )
 break
 case 'soundmenu':
@@ -10625,8 +10625,8 @@ case 'tqtt':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 reply(`شكرا لنفسي🥺💕
-واخويا عبضو 🤡
-وشكرا ليك ياللي بتستخدم البوت🌚💕 `)
+واخواني اياتو ولوفي والجزار واكازا واياد  
+وشكرا لك ياللي بتستخدم البوت🌚💕 `)
 break
             default:
                 if (budy.startsWith('=>')) {
