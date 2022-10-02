@@ -54,23 +54,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['967770500831'] //ur owner number
-global.ownername = "𝚁𝚊𝚒𝚣𝚎𝚕 𝙶𝚎𝚘𝚛𝚐𝚎🦉" //ur owner name
-global.ytname = "YT: Elgazar" //ur yt chanel name
+global.vcardowner = ['201554861890'] //ur owner number
+عالمي . ownername   =   "𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𓆩☬𓆪"   // اسم المالك الخاص بك
+عالمي . ytname  =  "YT: Elgazar"  // اسم قناة ur yt
 global.socialm = "GitHub: 𝚁𝚊𝚒𝚣𝚎𝚕 " //ur github or insta name
 global.location = "Egypt, Cairo, Aizawl" //ur location
 
 //bot bomdy 
-global.owner = ['967770500831']
-global.ownertag = '967770500831' //ur tag number
-global.botname = '𝙱𝙾𝚃 𝚁𝚊𝚒𝚣𝚎𝚕' //ur bot name
-global.linkz = "https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn" //your theme url which will be displayed on whatsapp
-global.websitex = "https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn" //ur website to be displayed
-global.botscript = 'https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn' //script link
+global.owner = ['201554861890']
+global.ownertag = '201554861890' //ur tag number
+global.botname = '𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𓆩☬𓆪' //ur bot name
+global.linkz = "https://chat.whatsapp.com/HM8bHOyD7cHDn82txihKNA" //your theme url which will be displayed on whatsapp
+global.websitex = "https://chat.whatsapp.com/HM8bHOyD7cHDn82txihKNA" //ur website to be displayed
+global.botscript = 'https://chat.whatsapp.com/HM8bHOyD7cHDn82txihKNA' //script link
 global.reactmoji = "🐦" //ur menu react emoji
 global.themeemoji = "🌚" //ur theme emoji
-global.packname = "رايزل جورج" //ur sticker watermark packname
-global.author = "🔱 𝚁𝚊𝚒𝚣𝚎𝚕 𝙶𝚎𝚘𝚛𝚐𝚎 🔱" //ur sticker watermark author
+global.packname = "لوسيفر" //ur sticker watermark packname
+global.author = "🜋 | 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𓆩ま𓆪" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -79,7 +79,7 @@ global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
 global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
-global.premium = ['967770500831'] //ur premium numbers
+global.premium = ['201554861890'] //ur premium numbers
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
